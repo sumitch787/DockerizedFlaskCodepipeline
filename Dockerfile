@@ -12,5 +12,7 @@ RUN pip3 install --no-cache-dir -r requirement.txt
 
 COPY . .
 
+EXPOSE 5000
+
 CMD ["python3","app.py"]  
 
